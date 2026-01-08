@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    width: 250px;
+    min-height: 300px;
+    border: 2px dashed gray;
+    padding: 10px;
+}
+
+.task {
+    background-color: lightblue;
+    margin: 10px 0;
+    padding: 8px;
+    cursor: grab;
+}
