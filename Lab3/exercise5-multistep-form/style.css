@@ -1,0 +1,11 @@
+body {
+    font-family: Arial;
+}
+
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}

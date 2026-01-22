@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}

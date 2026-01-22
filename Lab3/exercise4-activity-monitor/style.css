@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+}
+
+li {
+    font-size: 14px;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
