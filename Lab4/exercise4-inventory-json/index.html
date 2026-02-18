@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Inventory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Product Inventory</h2>
+
+<input type="text" id="name" placeholder="Product Name">
+<input type="text" id="category" placeholder="Category">
+<input type="number" id="price" placeholder="Price">
+<input type="number" id="stock" placeholder="Stock">
+
+<button onclick="addProduct()">Add Product</button>
+<button onclick="loadInventory()">Load Inventory</button>
+
+<br><br>
+
+<input type="text" id="searchCategory" placeholder="Search by Category">
+<button onclick="searchProduct()">Search</button>
+
+<h3>Total Inventory Value: ₹<span id="totalValue">0</span></h3>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="inventoryTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
