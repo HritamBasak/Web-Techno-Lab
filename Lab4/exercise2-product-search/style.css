@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+#loading {
+    color: blue;
+    font-style: italic;
+}
+
+li {
+    margin: 5px 0;
+}

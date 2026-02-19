@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX CRUD Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>User Manager</h2>
+
+<input type="text" id="name" placeholder="Name">
+<input type="email" id="email" placeholder="Email">
+
+<button onclick="addUser()">Add User</button>
+<button onclick="loadUsers()">Load Users</button>
+
+<p id="loading"></p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="userTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+input, button {
+    padding: 6px;
+    margin: 5px;
+}
+
+#loading {
+    color: blue;
+    font-style: italic;
+}
+
+#weatherResult {
+    margin-top: 15px;
+    font-weight: bold;
+}

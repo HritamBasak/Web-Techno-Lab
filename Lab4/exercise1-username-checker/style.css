@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+#status {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.available {
+    color: green;
+}
+
+.taken {
+    color: red;
+}
