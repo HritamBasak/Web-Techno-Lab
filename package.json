@@ -1,0 +1,29 @@
+{
+  "name": "web-techno-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HritamBasak/Web-Techno-Lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HritamBasak/Web-Techno-Lab/issues"
+  },
+  "homepage": "https://github.com/HritamBasak/Web-Techno-Lab#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0"
+  }
+}
